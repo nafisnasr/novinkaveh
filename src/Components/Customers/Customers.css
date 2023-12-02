@@ -1,0 +1,23 @@
+/* Start of Customers Styles */
+
+.customers {
+  margin: 20px 0px;
+  padding: 10px;
+}
+.customers-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px;
+  padding: 30px;
+  background-color: var(--gray);
+  border-radius: 10px;
+  box-shadow:var(--shadow1);
+}
+.customers .img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+/* End of Customers Styles */

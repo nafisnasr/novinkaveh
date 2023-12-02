@@ -1,0 +1,23 @@
+/* Start payment btn box styles */
+.payment-btn-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: #eeeeee;
+  margin-top: 0px;
+}
+.payment-btn-box .link {
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
+.payment-btn-box .link:hover {
+  background-color: #fff;
+  transition: all 0.4s;
+}
+.payment-btn-box .link.active {
+  background-color: #fff;
+}
+/*End payment btn box styles */

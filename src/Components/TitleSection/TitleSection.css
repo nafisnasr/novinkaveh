@@ -1,0 +1,33 @@
+/* Start titleSection Styles */
+
+.title-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+  direction: rtl;
+  position: relative;
+}
+.title-section h3{
+  font-size: 25px;
+  color: #444;
+  font-weight: bold;
+}
+.title-section h3::before{
+  content: "";
+  width: 80px;
+  height: 2px;
+  bottom: -17px;
+  right: calc(50% - 40px);
+  background-color: rgb(213 224 235);
+  position: absolute;
+  background: linear-gradient(to left,#e2e6eb,rgb(5 117 233),#eaf2fb);
+}
+.title-section .see-all-btn{
+  position: absolute;
+  left:50px;
+  color: var(--blue);
+  font-size: 30px;
+  cursor: pointer;
+}
+/* End titleSection Styles */

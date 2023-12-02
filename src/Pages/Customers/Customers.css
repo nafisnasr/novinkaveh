@@ -1,0 +1,13 @@
+/* Start Customers Styles */
+.customers-page{
+    padding: 20px;
+    width:100%;
+}
+.customers-page .wrapper{
+    padding:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+/* End Customers Styles */

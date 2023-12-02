@@ -1,0 +1,27 @@
+/* Start Step Box Styles */
+
+.stepBox {
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  direction: rtl;
+  flex-direction: column;
+  color: #212121;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+.stepBox .title {
+  font-size: 18px;
+}
+.stepBox span {
+  font-size: 13px;
+}
+.stepBox .icon {
+  color: var(--blue);
+  font-size: 30px;
+  margin: 20px 0px;
+}
+/* End Step Box Styles */

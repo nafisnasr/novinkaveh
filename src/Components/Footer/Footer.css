@@ -1,0 +1,143 @@
+/* Start Footer Styles */
+.footer {
+  padding: 10px;
+  background-image: url("../../../public/images/footer.jpg");
+  direction: rtl;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .right-col,
+.footer .left-col,
+.footer .center-col {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  padding: 10px;
+}
+
+.footer .right-col .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer .right-col .header p {
+  color: #444;
+}
+.footer .right-col .header button {
+  background-color: var(--yellow);
+  padding: 10px;
+  border-radius: 20px;
+  color: #111;
+}
+.footer .right-col .list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer .list .right-col,
+.footer .list .left-col {
+  list-style-type: none;
+}
+.footer .list .right-col li,
+.footer .list .left-col li {
+  text-decoration: none;
+  margin: 10px 0px;
+  color: #444;
+}
+.footer .list .right-col li::before,
+.footer .list .left-col li::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 7px;
+  background-color: var(--blue);
+}
+
+.footer .center-col .title {
+  font-weight: bold;
+  font-size: 16px;
+}
+.footer .center-col .description {
+  font-size: 14px;
+  color: var(--text);
+  margin: 10px 0px;
+}
+.footer .center-col span {
+  color: var(--text);
+  font-size: 14px;
+}
+.footer .center-col .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .center-col .icon-container .icon-box {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.footer .center-col .social-icon {
+  color: #fff;
+  font-size: 22px;
+}
+.footer .instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+.footer .telegram {
+  background-color: #0088cc;
+}
+.footer .whatsapp {
+  background-color: #00e676;
+}
+.footer .center-col .email,
+.footer .center-col .phone {
+  display: flex;
+  align-items: right;
+  flex-direction: column;
+}
+.footer .center-col .email a,
+.footer .center-col .phone a {
+  color: #444;
+  font-weight: bold;
+  margin: 8px 0px;
+}
+.footer .left-col {
+  align-items: center;
+  justify-content: center;
+}
+.footer .left-col .text {
+  margin: 10px 0px;
+  color: #444;
+  font-size: 14px;
+}
+.footer .left-col .btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
+}
+.footer .left-col .btn-container button {
+  background-color: var(--blue);
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+.footer .left-col .btn-container button .icon {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+/* End Footer Styles */

@@ -1,0 +1,32 @@
+/* Start About Box Styles */
+
+.about-box-wrapper {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: var(--shadow1);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+.about-box-wrapper .img-box {
+  margin: 10px 0px;
+}
+.about-box-wrapper .info {
+  margin-top: 8px;
+}
+.about-box-wrapper .info .colored-number {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 2px;
+}
+.about-box-wrapper .category {
+  color: var(--text);
+  font-size: 12px;
+  margin-top: 5px;
+}
+/* End About Box Styles */

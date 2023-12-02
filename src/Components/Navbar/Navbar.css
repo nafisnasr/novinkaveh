@@ -1,0 +1,34 @@
+/* start navbar styles */
+
+.navbar-wrapper {
+  direction: rtl;
+  padding: 10px;
+}
+.navbar-icon {
+  margin-left: 8px;
+}
+.navbar-wrapper .nav-item {
+  padding: 5px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.navbar-wrapper .nav-item:hover {
+  background-color: var(--light-blue);
+}
+.navbar-wrapper .active {
+  background-color: var(--blue);
+  color: #fff !important;
+  border-radius: 25px;
+}
+.navbar-wrapper .contact-box {
+  padding: 10px;
+  background-color: #4bbf78;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.navbar-wrapper .contact-box .icon {
+  font-size: 25px;
+  color: #fff;
+}
+/* End navbar styles */

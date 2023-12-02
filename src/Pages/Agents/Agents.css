@@ -1,0 +1,70 @@
+/* Start agents page styles */
+.agents-info {
+  padding: 10px;
+  width: 100%;
+  direction: rtl;
+}
+
+.agents-info-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.agents-info-form {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow:var(--shadow1);
+}
+.agents-info-form .title {
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.agents-info-form form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.agents-info-form .form-input {
+  display: flex;
+  align-items: right;
+  flex-direction: column;
+  margin: 10px 0px;
+  width: 80%;
+}
+.agents-info-form .form-input label span {
+  color: red;
+}
+.agents-info-form .form-input input,
+.agents-info-form .form-input textarea,
+.agents-info-form .form-input select {
+  border: 1px solid #5f5d5d;
+  margin: 5px 0px;
+  padding: 3px;
+  border-radius: 5px;
+}
+.agents-info-form .btn-box {
+  width: 100%;
+  direction: ltr;
+}
+.agents-info-form .btn-box button {
+  background-color: var(--blue);
+  margin: 10px 60px;
+  padding: 8px 30px;
+  color: #fff;
+  border-radius: 5px;
+}
+.agents-info-form .btn-box button:hover {
+  background-color: #0573e9a9;
+}
+@media screen and (max-width: 950px) {
+  .agents-info-form {
+    width: 100%;
+  }
+}
+/* End agents page styles */

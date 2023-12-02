@@ -1,0 +1,26 @@
+/* Start Rules Styles */
+
+.rules{
+    width: 100%;
+    padding: 10px;
+}
+.rules-wrapper{
+    direction: rtl;
+    padding:30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 30px 0px;
+    box-shadow: var(--shadow1);
+}
+.rules .title{
+    margin: 20px 0px;
+}
+.rules .text{
+    margin: 10px 0px;
+    line-height: 40px;
+    font-size:15px;
+}
+/* End Rules Styles */

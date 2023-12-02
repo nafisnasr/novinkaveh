@@ -1,0 +1,39 @@
+/* Start Why us page */
+
+.why-us {
+  width: 100%;
+  padding: 10px;
+  margin: 30px 0px;
+}
+.why-us .wrapper {
+  direction: rtl;
+  background-color: #ffff;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid #ddd;
+  box-shadow: var(--shadow1);
+}
+.why-us .wrapper .title {
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.why-us .wrapper .text {
+  color: #444;
+  padding: 10px;
+  font-size: 15px;
+  margin: 15px 0px;
+  font-weight: lighter;
+  line-height: 30px;
+}
+.why-us-list {
+  margin: 30px 0px;
+}
+.why-us-list .list-items {
+  padding: 5px 25px;
+}
+.why-us-list .list-items li {
+  margin: 12px 0px;
+  color: #444;
+}
+
+/* End Why us page */

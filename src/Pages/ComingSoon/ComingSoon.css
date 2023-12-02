@@ -1,0 +1,21 @@
+/* Start coming soon Styles */
+.coming-soon {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coming-soon .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  direction: rtl;
+  padding: 20px;
+  height: 300px;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+/* End coming soon Styles */
